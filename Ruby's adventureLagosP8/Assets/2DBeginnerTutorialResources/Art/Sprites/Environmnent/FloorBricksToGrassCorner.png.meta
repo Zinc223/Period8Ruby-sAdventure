@@ -131,7 +131,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,19 +147,19 @@ TextureImporter:
       name: FloorBricksToGrassCorner_1
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 128
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf39d088650121f4eb365c46d9d9a076
-      internalID: 175945441
+      spriteID: d0cceb6048b63ff49aeb23d7eaf4e039
+      internalID: -986160178
       vertices: []
       indices: 
       edges: []
@@ -173,14 +173,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63edcacc54262a645976586ddaf10bea
-      internalID: -830811889
+      spriteID: d803331dae998e14387ec76219c5aaa0
+      internalID: 709303429
       vertices: []
       indices: 
       edges: []
@@ -194,14 +194,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d68c6870f5420244bd948a750200bb2
-      internalID: 686787520
+      spriteID: 3db03330299336043b08df0968946e15
+      internalID: 1099165868
       vertices: []
       indices: 
       edges: []
@@ -215,14 +215,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6579214e3a1bf744f977e00ed33a73df
-      internalID: -74281421
+      spriteID: b90998065c98c4f4ea088853731f4aec
+      internalID: 2131555963
       vertices: []
       indices: 
       edges: []
@@ -236,14 +236,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b1615f829647b04d80fd95a2d937174
-      internalID: -1089246749
+      spriteID: 327b00a4790e547468b52af06a517fe0
+      internalID: -1829366856
       vertices: []
       indices: 
       edges: []
@@ -257,14 +257,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bfa43034308bf14d817f4084c25df3e
-      internalID: 871614108
+      spriteID: 989bb6d9e3d032247a72e8c5444ff124
+      internalID: 1436577420
       vertices: []
       indices: 
       edges: []
@@ -278,14 +278,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 397ca3a9bea0e2b4f82811996637dddd
-      internalID: 585726561
+      spriteID: a7a8843773c642e479d187a1fcd32dd5
+      internalID: -2060324463
       vertices: []
       indices: 
       edges: []
@@ -299,56 +299,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d9ab38fc16537246ab1fe962053c19c
-      internalID: 1966263408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FloorBricksToGrassCorner_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 164
-        width: 27
-        height: 23
-      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d89d89145af1444b2b442ae24da58d
-      internalID: -77283004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FloorBricksToGrassCorner_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 154
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e10df75fe4deb904da487156bcf09268
-      internalID: 701148298
+      spriteID: b8811a848a4796a478544aa19d79b54c
+      internalID: 754432789
       vertices: []
       indices: 
       edges: []
@@ -365,16 +323,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       FloorBricksToGrassCorner_0: -296588182
-      FloorBricksToGrassCorner_1: 175945441
-      FloorBricksToGrassCorner_10: 701148298
-      FloorBricksToGrassCorner_2: -830811889
-      FloorBricksToGrassCorner_3: 686787520
-      FloorBricksToGrassCorner_4: -74281421
-      FloorBricksToGrassCorner_5: -1089246749
-      FloorBricksToGrassCorner_6: 871614108
-      FloorBricksToGrassCorner_7: 585726561
-      FloorBricksToGrassCorner_8: 1966263408
-      FloorBricksToGrassCorner_9: -77283004
+      FloorBricksToGrassCorner_1: -986160178
+      FloorBricksToGrassCorner_2: 709303429
+      FloorBricksToGrassCorner_3: 1099165868
+      FloorBricksToGrassCorner_4: 2131555963
+      FloorBricksToGrassCorner_5: -1829366856
+      FloorBricksToGrassCorner_6: 1436577420
+      FloorBricksToGrassCorner_7: -2060324463
+      FloorBricksToGrassCorner_8: 754432789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

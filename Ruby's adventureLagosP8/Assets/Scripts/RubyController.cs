@@ -1,35 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
-    private float horizontal;
-    private float vertical;
+    public int maxHealth = 5;
+    int currentHealth;
+   
+    
+    Rigidbody2D rigidbody2d;
+    float horizontal;
+   float vertical;
 
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
-        
-    }
+        rigidbody2d = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth; }
 
-    // Update is called once per frame
+    
+
+// Update is called once per frame
  void Update() 
       {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vetical");
+        horizontal = Input.GetAxis("Horizontal");
+         vertical = Input.GetAxis("Vetical");
 
-
-
-    }
-     void FixedUpdate()
-
-    {
-        Vector2 position = transform.position;
+} void FixedUpdate()
+ { 
+       
+        Vector2 position = rigidbody2d.position;
         position.x = position.x + 3.0f * horizontal * Time.deltaTime;
-        position.y = position.x + 3.0f * vertical * Time.deltaTime;
-        transform.position = position;
-        
-    }   
+        position.y = position.x + 3.0f * vertical  * Time.deltaTime;
+
+        rigidbody2d.MovePosition(position);
+ }
+
 }
+

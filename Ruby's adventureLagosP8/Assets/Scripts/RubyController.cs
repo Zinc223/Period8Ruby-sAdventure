@@ -19,6 +19,8 @@ public class RubyController : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
+        
+
     }
 
     void FixedUpdate()
